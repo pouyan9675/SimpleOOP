@@ -11,7 +11,7 @@ void leak(){
 //    delete login;                 // Using delete syntax for new
 }
 
-int main() {
+int main(int argc, char* argv[]) {
 
     for(int i=0; i<100000; i++)
         leak();
